@@ -9,9 +9,9 @@ def get(array, index, default=None):
     :param array: исходный список.
     :param index: инде кс извлекаемого элемента.
     :param default: значение по-умолчанию.
-    :return: значение по индексу или значение по-умолчанию.
+    :return: значение по  индексу или значение по-умолчанию.
     """
-    if index < 0:
+    if index < 0 or index > len(array) - 1:
         return default
 
     return array[index]
