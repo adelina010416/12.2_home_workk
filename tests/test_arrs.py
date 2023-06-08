@@ -4,6 +4,7 @@ from utils import arrs
 
 
 def test_get():
+    """тест"""
     assert arrs.get([1, 2, 3], 1, "test") == 2
     assert arrs.get([], 0, "test") == "test"
 
