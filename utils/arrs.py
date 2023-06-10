@@ -8,7 +8,7 @@ def get(array, index, default=None):
     Функция работает только с неотрицательными индексами.
     :param array: исходный список.
     :param index: индекс извлекаемого элемента.
-    :param default: значение   по-умолчанию.
+    :param default: значение по-умолчанию.
     :return: значение по индексу или значение по-умолчанию.
     """
     if index < 0 or index > len(array) - 1:
